@@ -1,26 +1,26 @@
 class Torq < Formula
   desc "Fast torrent finder and downloader"
   homepage "https://github.com/Saswatsusmoy/TorQ"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Saswatsusmoy/TorQ/releases/download/v0.1.2/torq-aarch64-apple-darwin.tar.gz"
-      sha256 "1a2f79400d13c59a9a380c2e5dcb34a03a4b938ce3772432fcded13b07f691a1"
+      url "https://github.com/Saswatsusmoy/TorQ/releases/download/v0.1.3/torq-aarch64-apple-darwin.tar.gz"
+      sha256 "2afd6037a9cbaaa1df10f26870c3263974ea606dc4ee95699a4827be0b19c5d1"
     else
-      url "https://github.com/Saswatsusmoy/TorQ/releases/download/v0.1.2/torq-x86_64-apple-darwin.tar.gz"
-      sha256 "249551c310f7606dabd98bb68a43488d15b23b07093016b422e484832826eaff"
+      url "https://github.com/Saswatsusmoy/TorQ/releases/download/v0.1.3/torq-x86_64-apple-darwin.tar.gz"
+      sha256 "c4b591ed2fd4521a0ff9f046d8ad294c9f4b02800fc8111c485c953e8d660fee"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Saswatsusmoy/TorQ/releases/download/v0.1.2/torq-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b7ce7017e3d16b832a02bedec888b31f2fb7f35311ccf8487583306ffbdd29f6"
+      url "https://github.com/Saswatsusmoy/TorQ/releases/download/v0.1.3/torq-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "47697554c1d9b29b6e443f559ce207e602123443069226952d16b7efc748f845"
     else
-      url "https://github.com/Saswatsusmoy/TorQ/releases/download/v0.1.2/torq-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e47d39a949ed310e2235b4fa5d915f3ddd6fdb66b14504e0fcd6708bfe128574"
+      url "https://github.com/Saswatsusmoy/TorQ/releases/download/v0.1.3/torq-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d11390ebe436c75317b5bd4185fb97cea88ed911365dac4663c6984a9e26683b"
     end
   end
 
